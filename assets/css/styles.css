@@ -1,0 +1,167 @@
+/* This website design by Freelancer Milon - 
+    Facebook-Page : https://facebook.com/freelancer.milonbd   
+    Facebook-Profile : https://facebook.com/rjapppon 
+    Github : https://github.com/fr-milon
+    Phone : 8801955255066
+    Business Email: millonhossain1993@gmail.com
+                  - freelancermilon@yahoo.com
+*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    height: 650px;
+    width: 100%;
+}
+/* HEADER Area */
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(8, 187, 187, 0.945);
+    margin: 0 auto;
+    position: relative;
+}
+.top_left {
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin: 0px 20px 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+.top_left img {
+    margin: 20px auto 0;
+}
+.top_center {
+    height: 100px;
+    width: 800px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    overflow: hidden;
+}
+.top_center h1 {
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.788);
+
+}
+.top_center p {
+    color: white;
+    padding: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.788);
+}
+.top_right {
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    opacity: 70%;
+}
+
+/* BODY  */
+
+
+/* Left Side MENU Section  */
+.left_body {
+    height: 550px;
+    width: 180px;
+    float: left;
+    background-color: rgba(8, 187, 187, 0.945);
+}
+.left_menu {
+    margin: auto;
+    font-family: sans-serif;
+}
+.left_menu a {
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    color: black;
+}
+.left_menu a:first-child {
+    padding-top: 5px;
+}
+.left_menu a:first-child:focus {
+    border-top: 1px solid silver;
+}
+.left_menu a:last-child {
+    height: 25px;
+}
+.left_menu a:hover {
+    color: orange;
+}
+.left_menu a:focus {
+    background-color: rgba(28, 224, 224, 0.664);
+}
+
+.center_body {
+    height: 550px;
+    width: 55%;
+    float: left;
+    overflow: scroll;
+    margin: auto;
+}
+.content {
+    height: auto;
+    width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+.content h1 {
+    font-size: 15px;
+    padding: 20px;
+    margin-left: 20px;
+    
+}
+.content hr {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: silver;
+    height: 2px;
+}
+.content p {
+    padding: 10px;
+    margin-left: 140px;
+    font-size: 12px;
+}
+
+/* BODY RIGHT AREA  */
+
+.right_body {
+    height: 550px;
+    width: 30%;
+    float: right;
+    background-color: rgba(209, 212, 212, 0.897);
+    padding: 5px;
+    overflow: scroll;
+}
+.right_cont  {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-family: sans-serif;
+
+}
+.right_cont h2 {
+    font-size: 15px;
+}
+.right_cont p {
+    font-size: 12px;
+    padding: 5px;
+}
+.right_cont ul li {
+    margin-left: 50px;
+    font-size: 12px;
+}

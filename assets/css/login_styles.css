@@ -1,0 +1,91 @@
+/* This website design by Freelancer Milon - 
+    Facebook-Page : https://facebook.com/freelancer.milonbd   
+    Facebook-Profile : https://facebook.com/rjapppon 
+    Github : https://github.com/fr-milon
+    Phone : 8801955255066
+    Business Email: millonhossain1993@gmail.com
+                  - freelancermilon@yahoo.com
+*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    height: 650px;
+    width: 100%;
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(8, 187, 187, 0.945);
+    margin: 0 auto;
+    position: relative;
+}
+.top_left {
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin: 0px 20px 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+.top_left img {
+    margin: 20px auto 0;
+}
+.top_center {
+    height: 100px;
+    width: 800px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    overflow: hidden;
+}
+.top_center h1 {
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.top_center p {
+    color: white;
+    padding: 5px;
+}
+.top_right {
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    opacity: 70%;
+}
+
+/* LOGIN  */
+.login {
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: 200px 40%;
+}
+.login input {
+    height: 35px;
+    width: 250px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    outline: none;
+    padding: 10px;
+}
+.login input::placeholder {
+    padding : 10px;
+}
+
+.login_btn {
+    background-color: rgba(8, 187, 187, 0.945);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
